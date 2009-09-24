@@ -1,11 +1,10 @@
 package Win32::Access2Text;
 
-use 5.10.1;
 use warnings;
 use strict;
 use DBI;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 BEGIN {
 	use Exporter;

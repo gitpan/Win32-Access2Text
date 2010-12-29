@@ -4,7 +4,7 @@ use warnings;
 use strict;
 use DBI;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 BEGIN {
 	use Exporter;

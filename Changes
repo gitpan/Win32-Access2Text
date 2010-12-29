@@ -6,3 +6,6 @@ Revision history for Perl extension Win32::Access2Text.
 
 0.02  Thu Sep 24 21:04:04 2009
 	- bugfix: use perl version
+
+0.04  Wed Dec 29 14:12:00 2010
+   - bugfix: Win32::OLE

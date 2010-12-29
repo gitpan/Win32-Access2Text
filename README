@@ -1,27 +1,21 @@
-Access2Text version 0.02
-========================
+NAME
+    Access2Text - a module for save Accesstable as Textfile
 
-INSTALLATION
+SYNOPSIS
+      use warnings;
+      use strict;
+      use Access2Text qw( AccTabSaveToText );
 
-To install this module type the following:
+      AccTabSaveToText("ourConnectionString", "C:\\DB.mdb", "Table", "C:\\Textfile.txt");
 
-   perl Makefile.PL
-   make
-   make test
-   make install
+      Example for Connection String: ";Provider=Microsoft.ACE.OLEDB.12.0;Password=\"\""
 
-DEPENDENCIES
+ABSTRACT
+    Test
 
-This module requires these other modules and libraries:
+DESCRIPTION
+    ...
 
-   Access2Text
+AUTHOR AND LICENSE
+    copyright 2009 (c) Gernot Havranek
 
-COPYRIGHT AND LICENCE
-
-Put the correct copyright and licence information here.
-
-Copyright (C) 2009 by Gernot Havranek
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.10.0 or,
-at your option, any later version of Perl 5 you may have available.
